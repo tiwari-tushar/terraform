@@ -1,4 +1,5 @@
 #!/bin/bash
 git add .
-git commit -am "$0"
+read commit
+git commit -am "$commit"
 git push
