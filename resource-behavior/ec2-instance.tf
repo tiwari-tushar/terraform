@@ -8,6 +8,6 @@ resource "aws_instance" "my-ec2-vm" {
   #availability_zone = "us-east-1b"
   tags = {
     "Name" = "web"
-    #"tag1" = "Update-test-1"    
+    "tag1" = "Update-test-1"    
   }
 }
